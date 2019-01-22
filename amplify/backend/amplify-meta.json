@@ -11,7 +11,27 @@
 			"StackId": "arn:aws:cloudformation:us-east-2:296292494703:stack/pixlireduxsaga-20190122095156/42081c70-1dfd-11e9-8fa5-0ae094dd1c0e"
 		}
 	},
-	"auth": {},
+	"auth": {
+		"cognitof4d08237": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/pixlireduxsaga-20190122095156-deployment/amplify-cfn-templates/auth/cognitof4d08237-cloudformation-template.yml",
+				"logicalId": "authcognitof4d08237"
+			},
+			"lastPushTimeStamp": "2019-01-22T05:20:05.902Z",
+			"output": {
+				"AppClientSecret": "19a0u4ua721utnqi4tpa76s5a7d13o5jj1tnrej5v02kkdrionqe",
+				"UserPoolId": "us-east-2_vWbi2drRb",
+				"AppClientIDWeb": "5hrvato44datp0kmnvfkeivp72",
+				"AppClientID": "4ifu5lo9fahv9v4be8ag4s1fr",
+				"IdentityPoolId": "us-east-2:d9c2c9af-0cb4-4f48-b79c-f7391666e4a3",
+				"IdentityPoolName": "cognitof4d08237_identitypool_f4d08237",
+				"UserPoolName": "cognitof4d08237_userpool_f4d08237"
+			},
+			"lastPushDirHash": "noRbZefugQ9OgM6EFi4Fv+7KMmw="
+		}
+	},
 	"analytics": {},
 	"hosting": {
 		"S3AndCloudFront": {
@@ -21,7 +41,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/pixlireduxsaga-20190122095156-deployment/amplify-cfn-templates/hosting/template.json",
 				"logicalId": "hostingS3AndCloudFront"
 			},
-			"lastPushTimeStamp": "2019-01-22T04:32:19.866Z",
+			"lastPushTimeStamp": "2019-01-22T05:20:05.895Z",
 			"output": {
 				"S3BucketSecureURL": "https://pixlireduxsaga-20190122100049-hostingbucket.s3.amazonaws.com",
 				"WebsiteURL": "http://pixlireduxsaga-20190122100049-hostingbucket.s3-website.us-east-2.amazonaws.com",

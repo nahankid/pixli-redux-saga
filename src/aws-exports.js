@@ -2,6 +2,10 @@
 
 const awsmobile = {
     "aws_project_region": "us-east-2",
+    "aws_cognito_identity_pool_id": "us-east-2:d9c2c9af-0cb4-4f48-b79c-f7391666e4a3",
+    "aws_cognito_region": "us-east-2",
+    "aws_user_pools_id": "us-east-2_vWbi2drRb",
+    "aws_user_pools_web_client_id": "5hrvato44datp0kmnvfkeivp72",
     "aws_content_delivery_bucket": "pixlireduxsaga-20190122100049-hostingbucket",
     "aws_content_delivery_bucket_region": "us-east-2",
     "aws_content_delivery_url": "http://pixlireduxsaga-20190122100049-hostingbucket.s3-website.us-east-2.amazonaws.com"
