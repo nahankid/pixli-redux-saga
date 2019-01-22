@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "pixlireduxsaga-20190122095156-authRole",
+            "UnauthRoleArn": "arn:aws:iam::296292494703:role/pixlireduxsaga-20190122095156-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::296292494703:role/pixlireduxsaga-20190122095156-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "pixlireduxsaga-20190122095156-deployment",
+            "UnauthRoleName": "pixlireduxsaga-20190122095156-unauthRole",
+            "StackName": "pixlireduxsaga-20190122095156",
+            "StackId": "arn:aws:cloudformation:us-east-2:296292494703:stack/pixlireduxsaga-20190122095156/42081c70-1dfd-11e9-8fa5-0ae094dd1c0e"
+        }
+    }
+}
